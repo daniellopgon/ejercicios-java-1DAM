@@ -2,6 +2,9 @@ package arrays.hangman;
 
 import java.util.Scanner;
 
+/*
+Clase principal para ejecutar el juego del ahorcado.
+ */
 public class HangmanMain {
     public static void main(String[] args) {
         HangmanGame game = new HangmanGame();

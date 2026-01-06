@@ -1,5 +1,9 @@
 package collections.contacts;
 
+/*
+Clase principal para ejecutar la aplicación de agenda de contactos.
+ */
+
 import java.util.Scanner;
 
 public class ContactBookMain {
@@ -13,7 +17,7 @@ public class ContactBookMain {
         while (true) {
             showMenu();
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:

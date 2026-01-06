@@ -1,11 +1,11 @@
 package arrays;
 
-/**
- * Problem: Find the smallest positive number that is evenly divisible
- * by all numbers from 1 to 20.
- *
- * Note: 2520 is the smallest number that can be divided by each of the
- * numbers from 1 to 10 without remainder.
+/*
+Encuentra el número positivo más pequeño que sea divisible por todos
+los números del 1 al 20.
+
+Nota: 2520 es el número más pequeño que puede dividirse por cada uno de
+los números del 1 al 10 sin resto.
  */
 public class LCMCalculator {
 
@@ -17,12 +17,6 @@ public class LCMCalculator {
                 + UPPER_LIMIT + " is: " + result);
     }
 
-    /**
-     * Finds the smallest common multiple for all numbers from 1 to the given limit.
-     *
-     * @param limit the upper bound (inclusive) for the range
-     * @return the least common multiple of all numbers from 1 to limit
-     */
     public static long findSmallestCommonMultiple(int limit) {
         if (limit < 1) {
             throw new IllegalArgumentException("Limit must be positive");
@@ -37,33 +31,17 @@ public class LCMCalculator {
         return result;
     }
 
-    /**
-     * Calculates the Least Common Multiple (LCM) of two numbers.
-     * Formula: LCM(a, b) = (a * b) / GCD(a, b)
-     *
-     * @param a first number
-     * @param b second number
-     * @return the least common multiple of a and b
-     */
     public static long calculateLCM(long a, long b) {
         if (a == 0 || b == 0) {
             return 0;
         }
 
-        // Use absolute values to handle negative numbers
         a = Math.abs(a);
         b = Math.abs(b);
 
-        return (a / calculateGCD(a, b)) * b; // Rearranged to prevent overflow
+        return (a / calculateGCD(a, b)) * b;
     }
 
-    /**
-     * Calculates the Greatest Common Divisor (GCD) using Euclidean algorithm.
-     *
-     * @param a first number
-     * @param b second number
-     * @return the greatest common divisor of a and b
-     */
     public static long calculateGCD(long a, long b) {
         a = Math.abs(a);
         b = Math.abs(b);

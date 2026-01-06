@@ -1,35 +1,35 @@
 package exceptions.person;
 
 /*
-Exercise 5: Exception Handling in Class Inheritance (Advanced Level)
-Description: Create a class hierarchy where a base class throws an exception and
-a derived class handles that exception in a specific way. For example, an Employee class
-that inherits from Person, where Person has a method that can throw an exception that Employee
-handles in a particular way.
+Ejercicio 5: Manejo de excepciones en herencia de clases (Nivel avanzado)
+Descripción: Crea una jerarquía de clases donde una clase base lanza una excepción y
+una clase derivada maneja esa excepción de una forma específica. Por ejemplo, una clase Employee
+que hereda de Person, donde Person tiene un método que puede lanzar una excepción que Employee
+maneja de una manera particular.
 
-Requirements:
+Requisitos:
 
-Person Class:
-- setName(String name) method that throws an InvalidNameException if
-the name is null or empty.
+Clase Person:
+- Método setName(String name) que lanza una InvalidNameException si
+el nombre es null o vacío.
 
-Employee Class (inherits from Person):
-- setSalary(double salary) method that throws an InvalidSalaryException if the salary
-is negative.
-- Override of the setName method that handles InvalidNameException specifically (for example, set a default name).
+Clase Employee (hereda de Person):
+- Método setSalary(double salary) que lanza una InvalidSalaryException si el salario
+es negativo.
+- Sobreescritura del método setName que maneja InvalidNameException específicamente (por ejemplo, establece un nombre por defecto).
 
-Custom Exceptions:
-- InvalidNameException (extends Exception).
-- InvalidSalaryException (extends Exception).
+Excepciones personalizadas:
+- InvalidNameException (extiende Exception).
+- InvalidSalaryException (extiende Exception).
 
-Main Class:
-- Create an Employee instance and test the methods with valid and invalid data.
-- Handle exceptions appropriately.
+Clase Main:
+- Crear una instancia de Employee y probar los métodos con datos válidos e inválidos.
+- Manejar las excepciones apropiadamente.
 
-Objectives:
-- Understand how exceptions interact with class inheritance.
-- Practice catching and handling exceptions in a class hierarchy.
-- Implement specific exception handling logic in derived classes.
+Objetivos:
+- Entender cómo las excepciones interactúan con la herencia de clases.
+- Practicar la captura y manejo de excepciones en una jerarquía de clases.
+- Implementar lógica de manejo de excepciones específica en clases derivadas.
  */
 
 public class Person {

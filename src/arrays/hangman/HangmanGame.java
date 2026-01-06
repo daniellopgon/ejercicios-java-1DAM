@@ -5,6 +5,10 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
+/*
+Juego del ahorcado completo con su lógica de juego.
+El jugador debe adivinar una palabra letra por letra antes de quedarse sin intentos.
+ */
 public class HangmanGame {
 
     private static final String[] WORDS = {"goat", "cow", "pig", "chicken", "hen", "horse", "sheep", "duck"};

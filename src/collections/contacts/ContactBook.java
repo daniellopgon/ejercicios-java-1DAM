@@ -1,5 +1,10 @@
 package collections.contacts;
 
+/*
+Agenda de contactos implementada con HashMap.
+Permite añadir, buscar, eliminar y mostrar contactos.
+ */
+
 import java.util.HashMap;
 import java.util.Map;
 

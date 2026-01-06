@@ -1,12 +1,14 @@
-
-
 package collections.tasks;
+
+/*
+Clase principal para ejecutar el gestor de tareas pendientes.
+ */
 
 import java.util.Scanner;
 
 public class TaskMain {
     public static void main(String[] args) {
-        collections.tasks.TaskList taskList = new collections.tasks.TaskList();
+        TaskList taskList = new TaskList();
         Scanner scanner = new Scanner(System.in);
         int option;
 

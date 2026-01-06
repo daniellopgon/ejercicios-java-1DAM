@@ -1,5 +1,9 @@
 package oo_advanced.person;
 
+/*
+Clase principal para probar las clases Person, Teacher, SubstituteTeacher y TenuredTeacher.
+ */
+
 import java.time.LocalDate;
 import java.util.Scanner;
 

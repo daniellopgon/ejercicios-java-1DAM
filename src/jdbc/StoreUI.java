@@ -1,5 +1,10 @@
 package jdbc;
 
+/*
+Sistema completo de gestión de una tienda de videojuegos conectada a base de datos MariaDB.
+Proporciona una interfaz de menú por consola para interactuar con el sistema.
+ */
+
 import jdbc.database.StoreInsertsDAO;
 import jdbc.database.StoreSelectsDAO;
 import jdbc.database.StoreStatsDAO;

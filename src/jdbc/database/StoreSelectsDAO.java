@@ -1,5 +1,9 @@
 package jdbc.database;
 
+/*
+DAO para operaciones de consulta (SELECT) en la base de datos de la tienda.
+ */
+
 import jdbc.business.Customer;
 import jdbc.business.VideoGame;
 

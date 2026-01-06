@@ -1,5 +1,10 @@
 package oo_advanced.person;
 
+/*
+Clase Teacher que hereda de Person.
+Dispone de atributos para módulos profesionales que imparte.
+ */
+
 public class Teacher extends Person {
     private String module1;
     private String module2;

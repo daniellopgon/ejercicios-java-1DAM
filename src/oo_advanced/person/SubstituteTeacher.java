@@ -1,5 +1,10 @@
 package oo_advanced.person;
 
+/*
+Clase ProfesorInterino que hereda de Teacher.
+Dispone de un método que devuelve la fecha de inicio de la interinidad.
+ */
+
 import java.time.LocalDate;
 
 public class SubstituteTeacher extends Teacher {

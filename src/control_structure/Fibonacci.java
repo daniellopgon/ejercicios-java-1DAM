@@ -1,9 +1,9 @@
 package control_structure;
 
 /*
-Show the first N terms of the Fibonacci series, where N is defined as a positive integer variable.
+Muestra los primeros N términos de la serie de Fibonacci, donde N es un entero positivo.
 
-For example, if N = 10, the sequence is:
+Por ejemplo, si N = 10, la secuencia es:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
  */

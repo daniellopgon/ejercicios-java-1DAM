@@ -1,5 +1,9 @@
 package jdbc.business;
 
+/*
+Entidad Cliente del sistema de tienda de videojuegos.
+ */
+
 public class Customer {
     private String name;
     private String surnames;

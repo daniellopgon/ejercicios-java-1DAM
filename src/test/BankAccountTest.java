@@ -1,5 +1,10 @@
 package test;
 
+/*
+Clase de pruebas unitarias para BankAccount.
+Verifica el correcto funcionamiento de las operaciones bancarias.
+ */
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 

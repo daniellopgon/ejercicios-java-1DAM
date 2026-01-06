@@ -1,5 +1,10 @@
 package matrices;
 
+/*
+Sistema de venta de entradas de cine con gestión de asientos.
+Usa una matriz para representar las butacas de la sala.
+ */
+
 public class CinemaTickets {
 
     int rows = 10;

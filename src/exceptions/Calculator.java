@@ -1,17 +1,17 @@
 package exceptions;
 
 /*
-Exercise 1: Basic Exception Handling (Easy Level)
-Description: Create a class called Calculator with a divide method that receives two integers and returns the result of the division.
-Implement exception handling to catch possible divisions by zero and display an appropriate error message.
+Ejercicio 1: Manejo básico de excepciones (Nivel fácil)
+Descripción: Crea una clase llamada Calculator con un método divide que recibe dos enteros y devuelve el resultado de la división.
+Implementa el manejo de excepciones para capturar posibles divisiones por cero y mostrar un mensaje de error apropiado.
 
-Requirements:
-- Use a try-catch block to handle ArithmeticException.
-- Display a message like "Error: Division by zero not allowed." when the exception occurs.
+Requisitos:
+- Usa un bloque try-catch para manejar ArithmeticException.
+- Muestra un mensaje como "Error: La división por cero no está permitida." cuando ocurra la excepción.
 
-Objectives:
-- Understand how to catch and handle a specific exception.
-- Prevent the program from closing abruptly due to an unhandled exception.
+Objetivos:
+- Entender cómo capturar y manejar una excepción específica.
+- Prevenir que el programa se cierre abruptamente debido a una excepción no manejada.
  */
 
 public class Calculator {

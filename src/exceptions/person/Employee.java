@@ -1,5 +1,9 @@
 package exceptions.person;
 
+/*
+Clase Employee que hereda de Person y maneja excepciones de salario.
+ */
+
 public class Employee extends Person {
     double salary;
 

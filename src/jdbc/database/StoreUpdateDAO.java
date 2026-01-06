@@ -1,5 +1,9 @@
 package jdbc.database;
 
+/*
+DAO para operaciones de actualización en la base de datos de la tienda.
+ */
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

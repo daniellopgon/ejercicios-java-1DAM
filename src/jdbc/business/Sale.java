@@ -1,5 +1,9 @@
 package jdbc.business;
 
+/*
+Entidad Sale del sistema de tienda de videojuegos.
+ */
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 

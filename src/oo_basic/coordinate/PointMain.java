@@ -1,5 +1,9 @@
 package oo_basic.coordinate;
 
+/*
+Clase principal para probar la clase Point.
+ */
+
 public class PointMain {
     public static void main(String[] args) {
 

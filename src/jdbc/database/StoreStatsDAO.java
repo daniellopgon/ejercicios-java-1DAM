@@ -1,5 +1,9 @@
 package jdbc.database;
 
+/*
+DAO para estadísticas de ventas de la tienda.
+ */
+
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.HashMap;

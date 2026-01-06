@@ -1,29 +1,28 @@
 package basic_programming;
 
 /*
-Make a program to calculate how many billets have been given to a client.
+Crea un programa para calcular cuántos billetes se le entregan a un cliente.
 
-He requests a specific amount of money from his bank.
+El cliente solicita una cantidad específica de dinero de su banco.
 
-We always calculate the minimum quantity of bills.
+Siempre calculamos la cantidad mínima de billetes.
 
-For example:
+Por ejemplo:
 
-For the quantity of euros: 3475 €
+Para la cantidad de euros: 3475 €
 
-6 bills of 500 €
-2 bills of 200 €
-0 bills of 100 €
-1 bills of 20 €
-0 bills of 10 €
-1 bills of 5 €
+6 billetes de 500 €
+2 billetes de 200 €
+0 billetes de 100 €
+1 billete de 20 €
+0 billetes de 10 €
+1 billete de 5 €
  */
-
 
 import java.util.Scanner;
 
 public class Amount {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Introduce la cantidad de dinero: ");
@@ -31,13 +30,19 @@ public class Amount {
 
         int remaining = amount;
 
-        int bills500 = remaining / 500; remaining %= 500;
-        int bills200 = remaining / 200; remaining %= 200;
-        int bills100 = remaining / 100; remaining %= 100;
-        int bills50  = remaining / 50;  remaining %= 50;
-        int bills20  = remaining / 20;  remaining %= 20;
-        int bills10  = remaining / 10;  remaining %= 10;
-        int bills5   = remaining / 5;
+        int bills500 = remaining / 500;
+        remaining %= 500;
+        int bills200 = remaining / 200;
+        remaining %= 200;
+        int bills100 = remaining / 100;
+        remaining %= 100;
+        int bills50 = remaining / 50;
+        remaining %= 50;
+        int bills20 = remaining / 20;
+        remaining %= 20;
+        int bills10 = remaining / 10;
+        remaining %= 10;
+        int bills5 = remaining / 5;
 
         System.out.println("500 € bills: " + bills500);
         System.out.println("200 € bills: " + bills200);

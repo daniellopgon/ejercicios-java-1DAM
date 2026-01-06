@@ -1,5 +1,9 @@
 package jdbc.business;
 
+/*
+Entidad VideoGame del sistema de tienda de videojuegos.
+ */
+
 public class VideoGame {
     private String title;
     private String platform;

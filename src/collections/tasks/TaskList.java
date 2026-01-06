@@ -1,5 +1,10 @@
 package collections.tasks;
 
+/*
+Gestor de tareas pendientes con ArrayList.
+Permite añadir, completar y mostrar tareas.
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 

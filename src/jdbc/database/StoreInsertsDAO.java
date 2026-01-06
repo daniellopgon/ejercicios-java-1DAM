@@ -1,5 +1,9 @@
 package jdbc.database;
 
+/*
+DAO para operaciones de inserción en la base de datos de la tienda.
+ */
+
 import jdbc.business.Customer;
 import jdbc.business.Sale;
 import jdbc.business.VideoGame;

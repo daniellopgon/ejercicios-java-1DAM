@@ -1,17 +1,17 @@
 package basic_programming;
 
 /*
-Make a program that finds out is a leap year.
+Crea un programa que determine si un año es bisiesto.
 
-"Leap year is divisible between four, except the year is secular".
+Un año bisiesto es divisible entre cuatro, excepto los años seculares.
 
-The last year each century ended in 00, in whose case also has been divisible between four hundred.
+Los años seculares terminan en 00, en cuyo caso también deben ser divisibles entre cuatrocientos.
 */
 
 import java.util.Scanner;
 
 public class LeapYear {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Introduce el año:");
@@ -19,7 +19,7 @@ public class LeapYear {
 
         boolean leapYear = year % 400 == 0 || year % 4 == 0 || year % 100 != 0;
 
-        if (leapYear){
+        if (leapYear) {
             System.out.println("El año es bisiesto");
         } else {
             System.out.println("El año no es bisiesto");

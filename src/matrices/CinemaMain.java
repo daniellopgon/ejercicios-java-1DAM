@@ -1,5 +1,9 @@
 package matrices;
 
+/*
+Clase principal para ejecutar el sistema de venta de entradas del cine.
+ */
+
 import java.util.Scanner;
 
 public class CinemaMain {

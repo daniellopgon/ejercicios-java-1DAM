@@ -1,9 +1,9 @@
 package control_structure;
 
 /*
-Create a game that generates a random number and allows you to input a number to guess it.
+Crea un juego que genere un número aleatorio y permita introducir un número para adivinarlo.
 
-The game should indicate whether the number is too high or too low.
+El juego debe indicar si el número es demasiado alto o demasiado bajo.
  */
 
 import java.util.Random;

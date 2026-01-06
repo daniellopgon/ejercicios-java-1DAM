@@ -1,5 +1,9 @@
 package oo_basic.account;
 
+/*
+Clase principal para probar la cuenta corriente.
+ */
+
 public class CheckingAccountMain {
 
     public static void main(String[] args) {

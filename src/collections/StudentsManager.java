@@ -1,5 +1,10 @@
 package collections;
 
+/*
+Gestor de estudiantes usando HashSet.
+Permite añadir, eliminar, buscar y mostrar estudiantes de un curso.
+ */
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;

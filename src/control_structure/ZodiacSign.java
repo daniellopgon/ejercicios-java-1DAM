@@ -1,7 +1,7 @@
 package control_structure;
 
 /*
-Create a program that prints your zodiac sign.
+Crea un programa que imprima tu signo del zodiaco según tu fecha de nacimiento.
  */
 
 import java.util.Scanner;

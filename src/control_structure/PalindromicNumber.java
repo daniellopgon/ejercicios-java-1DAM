@@ -1,9 +1,9 @@
 package control_structure;
 
 /*
-Create a program that prints whether a number is capicua or not.
+Crea un programa que imprima si un número es capicúa o no.
 
-Use a 10,000 limit and nested if-else structures.
+Usa un límite de 10.000 y estructuras if-else anidadas.
  */
 
 import java.util.Scanner;
@@ -35,6 +35,3 @@ public class PalindromicNumber {
     }
 
 }
-
-
-

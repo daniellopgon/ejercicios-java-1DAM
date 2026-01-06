@@ -1,28 +1,29 @@
 package exceptions;
+
 /*
-Exercise 3: Catching Multiple Exceptions (Medium Level)
-Description: Create a class called DataProcessor with a processInput method that performs the following operations:
+Ejercicio 3: Captura de múltiples excepciones (Nivel medio)
+Descripción: Crea una clase llamada DataProcessor con un método processInput que realiza las siguientes operaciones:
 
-- Read a line of text from the console.
-- Convert the read line to an integer.
-- Divide 100 by the entered number.
+- Leer una línea de texto de la consola.
+- Convertir la línea leída a un entero.
+- Dividir 100 entre el número introducido.
 
-Implement exception handling to catch possible errors that may occur during these operations, such as:
+Implementa el manejo de excepciones para capturar posibles errores que puedan ocurrir durante estas operaciones, como:
 
-- IOException: If an error occurs when reading input from the console.
-- NumberFormatException: If the input cannot be converted to an integer.
-- ArithmeticException: If attempting to divide by zero.
+- IOException: Si ocurre un error al leer la entrada de la consola.
+- NumberFormatException: Si la entrada no puede convertirse a entero.
+- ArithmeticException: Si se intenta dividir por cero.
 
-Requirements:
-- Use a try block that encompasses the mentioned operations.
-- Implement multiple catch blocks to handle each type of exception specifically.
-- Display clear and descriptive error messages for each caught exception.
-- Add a finally block that prints a message indicating the process has finished, regardless of whether an exception occurred or not.
+Requisitos:
+- Usa un bloque try que englobe las operaciones mencionadas.
+- Implementa múltiples bloques catch para manejar cada tipo de excepción específicamente.
+- Muestra mensajes de error claros y descriptivos para cada excepción capturada.
+- Añade un bloque finally que imprima un mensaje indicando que el proceso ha terminado, independientemente de si ocurrió una excepción o no.
 
-Objectives:
-- Handle multiple specific exceptions in the same try-catch block.
-- Understand the importance of catching specific exceptions to provide appropriate responses to different errors.
-- Use the finally block to perform actions that should always execute, such as cleanup or final notifications.
+Objetivos:
+- Manejar múltiples excepciones específicas en el mismo bloque try-catch.
+- Entender la importancia de capturar excepciones específicas para proporcionar respuestas apropiadas a diferentes errores.
+- Usar el bloque finally para realizar acciones que siempre deben ejecutarse, como limpieza o notificaciones finales.
  */
 
 import java.util.Scanner;

@@ -1,7 +1,7 @@
 package control_structure;
 
 /*
-Create a menu for a simple calculator.
+Crea un menú para una calculadora simple.
  */
 
 import java.util.Scanner;

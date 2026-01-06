@@ -1,12 +1,12 @@
 package functions;
 
 /*
-Create two methods, one to encrypt() and another to decrypt() a character string.
-These methods receive a String and return that String already encrypted or decrypted.
-To encrypt a String, each letter is changed to the one that is two positions
-ahead (a is changed to c), taking into account that the change is circular,
-that is, z will be changed to b. The decryption process is the opposite.
-Non-alphabetic characters will not register any change.
+Crea dos métodos, uno para encriptar encrypt() y otro para desencriptar decrypt() una cadena de caracteres.
+Estos métodos reciben un String y devuelven ese String ya encriptado o desencriptado.
+Para encriptar un String, cada letra se cambia por la que está dos posiciones
+adelante (la a se cambia por c), teniendo en cuenta que el cambio es circular,
+es decir, la z se cambiará por b. El proceso de desencriptado es el opuesto.
+Los caracteres no alfabéticos no sufrirán ningún cambio.
  */
 
 public class Cipher {

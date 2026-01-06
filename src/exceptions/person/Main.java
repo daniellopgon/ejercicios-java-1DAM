@@ -1,5 +1,9 @@
 package exceptions.person;
 
+/*
+Clase principal para probar las excepciones personalizadas.
+ */
+
 public class Main {
     public static void main(String[] args) {
         Employee employee = new Employee("Antonio", 2000);

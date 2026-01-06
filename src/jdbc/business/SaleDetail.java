@@ -1,5 +1,9 @@
 package jdbc.business;
 
+/*
+Entidad SaleDetail del sistema de tienda de videojuegos.
+ */
+
 public class SaleDetail {
     private long saleId;
     private long videoGameId;
