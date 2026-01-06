@@ -12,26 +12,26 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        int numero = 5;
+        int number = 5;
 
-        System.out.println("El factorial del número es: " + factorial(numero));
+        System.out.println("El factorial del número es: " + factorial(number));
 
     }
 
-    static int factorial(int numero) {
+    static int factorial(int number) {
 
         int factorial = 1;
-        int resultado = 0;
+        int result = 0;
 
-        if (numero < 0) {
+        if (number < 0) {
             return -1;
-        } else if (numero == 0) {
+        } else if (number == 0) {
             return 1;
         } else {
-            for (int i = 1; i <= numero; i++) {
-                resultado = factorial *= i;
+            for (int i = 1; i <= number; i++) {
+                result = factorial *= i;
             }
         }
-        return resultado;
+        return result;
     }
 }

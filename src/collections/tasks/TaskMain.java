@@ -1,6 +1,6 @@
 
 
-package collections.task;
+package collections.tasks;
 
 import java.util.Scanner;
 
